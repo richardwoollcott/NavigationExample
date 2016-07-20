@@ -1,7 +1,7 @@
-﻿using System;
-using GalaSoft.MvvmLight.Ioc;
+﻿using GalaSoft.MvvmLight.Ioc;
 using GalaSoft.MvvmLight.Threading;
 using GalaSoft.MvvmLight.Views;
+using NavigationExample.Navigation;
 using NavigationExample.ViewModel;
 using NavigationExample.Views;
 

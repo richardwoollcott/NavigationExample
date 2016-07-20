@@ -1,5 +1,4 @@
-﻿using System;
-namespace NavigationExample
+﻿namespace NavigationExample.Navigation
 {
     public interface INavigationView
     {

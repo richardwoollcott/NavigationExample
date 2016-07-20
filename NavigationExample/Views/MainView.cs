@@ -1,18 +1,20 @@
-﻿using Android.App;
+﻿using System.Collections.Generic;
+
+using Android.App;
 using Android.Widget;
 using Android.OS;
-using System;
-using GalaSoft.MvvmLight.Views;
-using Microsoft.Practices.ServiceLocation;
-using NavigationExample.ViewModel;
-using System.Collections.Generic;
+
 using GalaSoft.MvvmLight.Helpers;
+using NavigationExample.Navigation;
+using NavigationExample.ViewModel;
 
 namespace NavigationExample.Views
 {
     [Activity(Label = "Home View", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainView : Activity, INavigationView
     {
+        private readonly List<Binding> bindings = new List<Binding>();
+
         private readonly NavigationHelper navigationHelper = new NavigationHelper();
 
         public NavigationHelper Helper
@@ -29,8 +31,6 @@ namespace NavigationExample.Views
 
             base.OnResume();
         }
-
-        private readonly List<Binding> bindings = new List<Binding>();
 
         private MainViewModel Vm
         {

@@ -21,7 +21,7 @@ using Android.Content;
 using GalaSoft.MvvmLight.Views;
 using Plugin.CurrentActivity;
 
-namespace NavigationExample
+namespace NavigationExample.Navigation
 {
     /// <summary>
     /// Xamarin Android implementation of <see cref="INavigationService"/>.

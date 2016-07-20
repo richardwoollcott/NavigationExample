@@ -1,5 +1,4 @@
-﻿using System;
-namespace NavigationExample.ViewModel
+﻿namespace NavigationExample.ViewModel
 {
     public class ChildNavigationParameter
     {

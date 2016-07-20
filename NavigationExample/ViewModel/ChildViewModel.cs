@@ -1,8 +1,6 @@
-﻿using System;
-using GalaSoft.MvvmLight;
+﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Views;
-using NavigationExample.ViewModel;
 
 namespace NavigationExample.ViewModel
 {

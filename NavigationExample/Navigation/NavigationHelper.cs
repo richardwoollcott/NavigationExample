@@ -1,7 +1,6 @@
-﻿using System;
-using Android.App;
+﻿using Android.App;
 
-namespace NavigationExample
+namespace NavigationExample.Navigation
 {
     public class NavigationHelper
     {

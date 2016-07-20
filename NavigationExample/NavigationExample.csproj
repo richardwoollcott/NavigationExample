@@ -63,14 +63,14 @@
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Compile Include="MainApplication.cs" />
-    <Compile Include="INavigationView.cs" />
-    <Compile Include="AlternateNavigationService.cs" />
-    <Compile Include="NavigationHelper.cs" />
     <Compile Include="ViewModel\ChildViewModel.cs" />
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="Views\MainView.cs" />
     <Compile Include="Views\ChildView.cs" />
     <Compile Include="ViewModel\ChildNavigationParameter.cs" />
+    <Compile Include="Navigation\AlternateNavigationService.cs" />
+    <Compile Include="Navigation\NavigationHelper.cs" />
+    <Compile Include="Navigation\INavigationView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -91,6 +91,7 @@
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="Views\" />
+    <Folder Include="Navigation\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
