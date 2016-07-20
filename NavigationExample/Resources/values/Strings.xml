@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="viewHome">View Home</string>
+	<string name="viewChild">View Child</string>
+	<string name="app_name">NavigationExample</string>
+</resources>

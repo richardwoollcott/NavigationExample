@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/paramEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter parameter"
+        android:digits="123456789"
+        android:maxLength="4"
+        android:inputType="number"
+        android:singleLine="true"
+        android:imeOptions="actionNext" />
+    <Button
+        android:id="@+id/navChildButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewChild" />
+</LinearLayout>
