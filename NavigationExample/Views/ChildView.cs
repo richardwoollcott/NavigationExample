@@ -74,6 +74,18 @@ namespace NavigationExample.Views
             }
         }
 
+        private Button showMessageButton;
+
+        public Button ShowMessageButton
+        {
+            get
+            {
+                return showMessageButton ??
+                  (showMessageButton = FindViewById<Button>(
+                   Resource.Id.showMessageButton));
+            }
+        }
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -88,9 +100,11 @@ namespace NavigationExample.Views
             }
 
             NavigateHomeButton.SetCommand("Click", Vm.NavigateHomeCommand);
+            ShowMessageButton.SetCommand("Click", Vm.ShowMessageCommand);
 
-            //prevent agressive linker removing 'Click' event
+            //prevent agressive linker removing 'Click' events
             NavigateHomeButton.Click += (sender, e) => { };
+            ShowMessageButton.Click += (sender, e) => { };
 
             bindings.Add(this.SetBinding(
                 () => Vm.Parameter,

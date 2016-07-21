@@ -2,5 +2,6 @@
 <resources>
 	<string name="viewHome">View Home</string>
 	<string name="viewChild">View Child</string>
+	<string name="showMessage">Show Message</string>
 	<string name="app_name">NavigationExample</string>
 </resources>

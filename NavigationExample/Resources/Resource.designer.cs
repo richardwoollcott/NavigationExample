@@ -44,8 +44,8 @@ namespace NavigationExample
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050003
-			public const int navChildButton = 2131034115;
+			// aapt resource value: 0x7f050004
+			public const int navChildButton = 2131034116;
 			
 			// aapt resource value: 0x7f050001
 			public const int navHomeButton = 2131034113;
@@ -53,8 +53,11 @@ namespace NavigationExample
 			// aapt resource value: 0x7f050000
 			public const int navigationParameterTextView = 2131034112;
 			
+			// aapt resource value: 0x7f050003
+			public const int paramEditText = 2131034115;
+			
 			// aapt resource value: 0x7f050002
-			public const int paramEditText = 2131034114;
+			public const int showMessageButton = 2131034114;
 			
 			static Id()
 			{
@@ -104,8 +107,11 @@ namespace NavigationExample
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040003
+			public const int app_name = 2130968579;
+			
 			// aapt resource value: 0x7f040002
-			public const int app_name = 2130968578;
+			public const int showMessage = 2130968578;
 			
 			// aapt resource value: 0x7f040001
 			public const int viewChild = 2130968577;

@@ -71,6 +71,8 @@
     <Compile Include="Navigation\AlternateNavigationService.cs" />
     <Compile Include="Navigation\NavigationHelper.cs" />
     <Compile Include="Navigation\INavigationView.cs" />
+    <Compile Include="Threading\AlternateDispatcherHelper.cs" />
+    <Compile Include="Navigation\AlternateDialogService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -92,6 +94,7 @@
     <Folder Include="Resources\drawable\" />
     <Folder Include="Views\" />
     <Folder Include="Navigation\" />
+    <Folder Include="Threading\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

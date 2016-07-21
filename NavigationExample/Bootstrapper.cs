@@ -26,6 +26,8 @@ namespace NavigationExample
                     nav.Configure(ViewModelLocator.MainPageKey, typeof(MainView));
                     nav.Configure(ViewModelLocator.ChildPageKey, typeof(ChildView));
 
+                    SimpleIoc.Default.Register<IDialogService, AlternateDialogService>();
+
                     locator = new ViewModelLocator();
                 }
 
