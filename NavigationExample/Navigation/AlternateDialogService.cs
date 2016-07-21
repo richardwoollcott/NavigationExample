@@ -231,7 +231,6 @@ namespace NavigationExample
         {
             var tcs = new TaskCompletionSource<bool>();
 
-            //var builder = new AlertDialog.Builder(ActivityBase.CurrentActivity);
             var builder = new AlertDialog.Builder(CrossCurrentActivity.Current.Activity);
 
             builder.SetMessage(content);
