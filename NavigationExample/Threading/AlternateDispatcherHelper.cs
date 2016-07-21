@@ -48,7 +48,6 @@ namespace NavigationExample
             }
 
             CheckDispatcher();
-            //ActivityBase.CurrentActivity.RunOnUiThread(action);
             CrossCurrentActivity.Current.Activity.RunOnUiThread(action);
         }
 
@@ -70,13 +69,10 @@ namespace NavigationExample
 
         private static void CheckDispatcher()
         {
-            //if (ActivityBase.CurrentActivity == null)
             if (CrossCurrentActivity.Current.Activity == null)
             {
-                var error = new StringBuilder("The DispatcherHelper cannot be called.");
-                //error.AppendLine();
-                //error.Append("Make sure that your main Activity derives from ActivityBase.");
-
+                var error = new StringBuilder("The AlternateDispatcherHelper cannot be called.");
+           
                 throw new InvalidOperationException(error.ToString());
             }
         }
